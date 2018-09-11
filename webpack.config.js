@@ -33,7 +33,9 @@ module.exports = {
     devtool: "cheap-module-eval-source-map",
     devServer:{
         // set up base which signals to webpack-dev-server where to find the public files
-        contentBase: path.join(__dirname, "public")
+        contentBase: path.join(__dirname, "public"),
+        // historyApiFallback tells the dev server that we will be handling routing via client side reactjs
+        historyApiFallback: true
     },
     performance: { hints: false }
 };
