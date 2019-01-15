@@ -31,3 +31,7 @@ also added the script "build" to run compile the react app file into the app.js 
 
     added npm node-sass for converting scss into regular css and npm sass-loader for loading css files 
     also configured the webpack.config file to support the scss files
+
+added: npm install --save-dev @babel/preset-react for using object spread(e.g: ...object) operator and added the plugin to 
+the babelrc file.
+
